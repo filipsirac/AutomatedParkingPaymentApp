@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="@dimen/newCarPaddingLayout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/newCarHeading"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/HeadingTextView"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:text="@string/newCarHeadingText"/>
+    <EditText
+            android:id="@+id/newCarTitleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/newCarName"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:inputType="text"
+            />
+    <EditText
+            android:id="@+id/newCarRegistrationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/newCarRegistration"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:inputType="text"
+            />
+
+    <Button
+            android:id="@+id/saveCarRegistration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginBottom"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_gravity="center"
+            android:text="@string/saveCarRegistration"/>
+</LinearLayout>

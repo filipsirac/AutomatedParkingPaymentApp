@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="name">30sp</dimen>
+    <dimen name="textSizeHeading">25sp</dimen>
+    <dimen name="registration">40sp</dimen>
+    <dimen name="marginBottom">15dp</dimen>
+    <dimen name="newCarPaddingLayout">15dp</dimen>
+    <dimen name="paySize">20sp</dimen>
+    <dimen name="registrationMaps">15sp</dimen>
+    <dimen name="paddingten">10dp</dimen>
+</resources>

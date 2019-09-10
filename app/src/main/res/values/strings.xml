@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AutomatedParkingPaymentApp</string>
+    <string name="no_registered_car">No registered car!</string>
+    <string name="name">golf</string>
+    <string name="registration">OS256CD</string>
+    <string name="newCarHeadingText">Register new car</string>
+    <string name="newCarName">Enter cars name</string>
+    <string name="newCarRegistration">Enter registration</string>
+    <string name="saveCarRegistration">save</string>
+    <string name="delete_all">Delete all</string>
+    <string name="paySMS">Prepare SMS</string>
+    <string name="findZoneManually">Find zone manually</string>
+    <string name="paymentDialogHeadingText">Payment</string>
+    <string name="registrationDialogHint">Enter your registration</string>
+    <string name="numberDialogHint">Enter payment number manually.</string>
+    <string name="prepareSMSButton">Prepare SMS</string>
+</resources>
